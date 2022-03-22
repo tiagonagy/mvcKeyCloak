@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http:/www.thymeleaf.org">
+<head th:replace="fragments :: html_head(pageTitle='Login')" />
+<body>
+<div class="container text-center">
+	<div>
+		<h2>Please Login</h2>
+		<br/>
+	</div>
+	<div>
+		<h4><a th:href="@{/oauth2/authorization/teste-login-client}">Login with Keycloak 1</a></h4>
+	</div>
+	<div>
+		<h4><a th:href="@{/oauth2/authorization/teste-login-client}">Login with Keycloak 2</a></h4>
+	</div>
+		
+
+</div>
+</body>
+</html>
